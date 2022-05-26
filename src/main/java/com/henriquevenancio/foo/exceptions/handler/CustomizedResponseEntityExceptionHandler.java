@@ -1,4 +1,4 @@
-package com.henriquevenancio.foo.exception.handler;
+package com.henriquevenancio.foo.exceptions.handler;
 
 import java.util.Date;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.henriquevenancio.foo.exception.ExceptionResponse;
-import com.henriquevenancio.foo.exception.UnsuportedMathOperationException;
+import com.henriquevenancio.foo.exceptions.ExceptionResponse;
+import com.henriquevenancio.foo.exceptions.UnsuportedMathOperationException;
 
 @ControllerAdvice
 @RestController

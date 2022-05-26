@@ -1,4 +1,4 @@
-package com.henriquevenancio.foo.exception;
+package com.henriquevenancio.foo.exceptions;
 
 import java.io.Serializable;
 import java.util.Date;
